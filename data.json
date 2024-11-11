@@ -1,0 +1,60 @@
+{
+  "user": [
+    {
+      "id": "9246",
+      "username": "yashvin",
+      "password": "yashvin"
+    },
+    {
+      "id": "5a6f",
+      "username": "qwerty",
+      "email": "qwerty@gmail.com",
+      "mobile": "1234567890",
+      "password": "123"
+    },
+    {
+      "id": "4721",
+      "username": "qwert",
+      "email": "qrty@gmail.com",
+      "mobile": "1234567890",
+      "password": "1"
+    },
+    {
+      "id": "d2e3",
+      "username": "Yashvin Maran",
+      "email": "yashvinmaran@gmail.com",
+      "mobile": "7828000583",
+      "password": "1234"
+    }
+  ],
+  "products": [
+    {
+      "id": "1fa3",
+      "propertyName": "Deepak kalal",
+      "propertyLocation": "Chand",
+      "propertyDescription": "This property have the full luxury",
+      "imageURL": "https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150755.jpg",
+      "propertyType": "sale",
+      "priceRent": "300",
+      "propertyAddress": "Moon",
+      "bedrooms": "1",
+      "squareFeet": "600",
+      "carParking": "1",
+      "yearBuilt": "2023"
+    },
+    {
+      "id": "6ab9",
+      "propertyName": "yashvin",
+      "propertyLocation": "london",
+      "propertyDescription": "this is my property",
+      "imageURL": "https://master-admin-template.multipurposethemes.com/bs4/ltr/images/property/p-1-b.jpg",
+      "propertyType": "sale",
+      "priceRent": "4000",
+      "propertyAddress": "bhopal",
+      "bedrooms": "3",
+      "squareFeet": "4000",
+      "carParking": "2",
+      "yearBuilt": "2018"
+    }
+  ]
+}

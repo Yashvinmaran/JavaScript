@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="sample.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container" id="container">
+        <!-- Sidebar with Hamburger Menu -->
+        <aside class="sidebar" id="sidebar">
+            <div class="profile-section">
+                <img src="https://master-admin-template.multipurposethemes.com/bs4/ltr/images/avatar/1.jpg" alt="Profile Picture">
+                <h2>Yashvin</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-tachometer-alt"></i> Dashboard</a></li>
+                    <li><a href="#"><i class="fa-solid fa-list"></i> Property List</a></li>
+                    <li><a href="#"><i class="fa-solid fa-th"></i> Property Grid</a></li>
+                    <li><a href="#"><i class="fa-solid fa-plus"></i> Add Property</a></li>
+                    <li><a href="#"><i class="fa-solid fa-info-circle"></i> Property Details</a></li>
+                    <li><a href="#"><i class="fa-solid fa-tags"></i> Property Type</a></li>
+                    <li><a href="#"><i class="fa-solid fa-user-friends"></i> Agents</a></li>
+                    <li><a href="#"><i class="fa-solid fa-chart-line"></i> Report</a></li>
+                    <li><a href="#"><i class="fa-solid fa-inbox"></i> Mail Box</a></li>
+                    <li><a href="#"><i class="fa-solid fa-folder"></i> File Manager</a></li>
+                    <li><a href="#"><i class="fa-solid fa-address-book"></i> Contact</a></li>
+                    <li><a href="#"><i class="fa-solid fa-lock"></i> Authentication</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="main-content" id="main-content">
+            <!-- Header with Hamburger and Icons -->
+            <header class="header">
+                <div class="header-left">
+                    <i class="fa-solid fa-bars" id="bar"></i>
+                    <a href="#"><i class="fa-solid fa-calendar-days"></i></a>
+                    <a href="#"><i class="fa-regular fa-star"></i></a>
+                </div>
+                <div class="header-right">
+                    <button class="icon-button"><i class="fa-solid fa-expand"></i></button>
+                    <button class="icon-button"><i class="fa-solid fa-bell"></i></button>
+                    <button class="icon-button"><i class="fa-solid fa-chart-simple"></i></button>
+                </div>
+            </header>
+            <hr>
+
+            <!-- Stats Section -->
+            <section class="stats">
+                <div class="stat-box">
+                    <h3>Total Income</h3>
+                    <p id="totalIncome">$4,789/month</p>
+                    <small>+14.17% last month</small>
+                </div>
+                <div class="stat-box">
+                    <h3>Total Visitors</h3>
+                    <p>8,695/month</p>
+                    <small>-5.18% last month</small>
+                </div>
+                <div class="stat-box">
+                    <h3>Total Bookings</h3>
+                    <p>78%/month</p>
+                    <small>+12.2% last month</small>
+                </div>
+                <div class="stat-box">
+                    <h3>Revenue</h3>
+                    <p>$42k/month</p>
+                    <small>+11.00% last month</small>
+                </div>
+            </section>
+
+            <!-- Charts Section -->
+            <section class="charts">
+                <div class="chart-container">
+                    <canvas id="pieChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <canvas id="barChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <canvas id="lineChart"></canvas>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="sample.js"></script>
+</body>
+</html>

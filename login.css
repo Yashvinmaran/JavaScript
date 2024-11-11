@@ -1,0 +1,120 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #25d1fcbf, #25d1fc); /* Same gradient background */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+input:focus {
+    border-color: white;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #e74c3c; /* Red button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+.remember-me {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 14px;
+}
+
+.remember-me a {
+    color: white;
+}
+
+.switch-form {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.switch-form a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.switch-form a:hover {
+    color: #f1c40f;
+}
+
+/* Registration Form */
+#register-box {
+    display: none; /* Initially hidden */
+}
+
+#login-box {
+    display: block; /* Initially visible */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #f1c40f;
+}
